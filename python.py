@@ -5,3 +5,5 @@ for i in range(n):
     d = int(input("Number : "))
     l.append(d)
 print("Array is : ", l)
+l.sort()
+print("Sorted array : ", l)
